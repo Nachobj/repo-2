@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Todo Fútbol</title>
+    <link rel="shortcut icon" href="../img/index/favicon.svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="contenedor">
+        
+        <header class="encabezado header">
+            
+               <!--INICIA NAVBAR-->
+        <nav class="navbar navbar-expand-md nav-color botonera">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img src="../img/index/logo.jpg" alt="Logo a todo futbol" class="logo-nav wow animate__bounceOut">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link bot-color" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link bot-color" href="../pages/selecciones.html">SELECCIONES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link bot-color" href="../pages/equipos.html">EQUIPOS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bot-color" href="../pages/marcas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      MARCAS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../pages/marcas.html">Adidas</a></li>
+                      <li><a class="dropdown-item" href="../pages/marcas.html">Nike</a></li>
+                      <li><a class="dropdown-item" href="../pages/marcas.html">Puma</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link bot-color" href="../pages/retro.html">RETROS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--FIN NAVBAR-->
+            <img src="../img/pag-retros/ban-retro.jpg" alt="fondo retro" class="ban-pages">
+        </header>
+        
+        <section id="filtros" class="second-nav">
+            <form class="secondForm">
+                <select name="" id="">
+                    <option value="">TODAS</option>
+                    <option value="">Adidas</option>
+                    <option value="">Nike</option>
+                    <option value="">Puma</option>
+                </select>
+            </form>
+            <span><b>CAMISETAS</b></span>
+            <ul>
+                <li>America</li>
+                <li>Europa</li>
+                <li>Africa</li>
+                <li>Liga Argentina</li>
+                <li>Ligue 1</li>
+                <li>Liga BBVA</li>
+                <li>Premier League</li>
+                <li>Serie A</li>
+                <li>Bundesliga</li>
+            </ul>
+        </section>
+        
+        <main class="productos">
+            <h3>Productos</h3>
+            <div class="galeria">
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-arg.jpg" class="card-img-top" alt="Camiseta Argentina Titular">
+                      <div class="card-body">
+                        <p class="card-text">Argentina Titular 1996/97</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-bar.jpg" class="card-img-top" alt="Camiseta Argentina Titular">
+                      <div class="card-body">
+                        <p class="card-text">Barcelona Titular 2009/10</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-bj.jpg" class="card-img-top" alt="Camiseta Argentina Titular">
+                      <div class="card-body">
+                        <p class="card-text">Boca Juniors Titular 1996/97</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-bra.jpg" class="card-img-top" alt="Camiseta Brasil Suplente 2002">
+                      <div class="card-body">
+                        <p class="card-text">Brasil Suplente 2002</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-dort.jpg" class="card-img-top" alt="Camiseta Borussia Dortmund Titular 2012/13">
+                      <div class="card-body">
+                        <p class="card-text">Borussia Dortmund Titular 2012/13</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-esp.jpg" class="card-img-top" alt="Camiseta España Titular 2010">
+                      <div class="card-body">
+                        <p class="card-text">España Titular 2010</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-fio.jpg" class="card-img-top" alt="Camiseta Fiorentina Titular 1998/99">
+                      <div class="card-body">
+                        <p class="card-text">Fiorentina Titular 1998/99</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-fra.jpg" class="card-img-top" alt="Camiseta Francia Titular 2000">
+                      <div class="card-body">
+                        <p class="card-text">Francia Titular 2000</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-hol.jpg" class="card-img-top" alt="Camiseta Holanda Titular 1997">
+                      <div class="card-body">
+                        <p class="card-text">Holanda Titular 1997</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-int.jpg" class="card-img-top" alt="Camiseta Inter Milán Titular 2013/14">
+                      <div class="card-body">
+                        <p class="card-text">Inter Milán Titular 2013/14</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-ita.jpg" class="card-img-top" alt="Camiseta Italia Titular 2006">
+                      <div class="card-body">
+                        <p class="card-text">Italia Titular 2006 </p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-man.jpg" class="card-img-top" alt="Camiseta Manchester United Suplente 2007/08">
+                      <div class="card-body">
+                        <p class="card-text">Manchester United Suplente 2007/08</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-nap.jpg" class="card-img-top" alt="Camiseta Napoli Titular 1987/88">
+                      <div class="card-body">
+                        <p class="card-text">Napoli Titular 1987/88</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-psg.jpg" class="card-img-top" alt="Camiseta PSG Titular 2001/02">
+                      <div class="card-body">
+                        <p class="card-text">PSG Titular 2001/02</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-real.jpg" class="card-img-top" alt="Camiseta Real Madrid Titular 2013/14">
+                      <div class="card-body">
+                        <p class="card-text">Real Madrid Titular 2013/14</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-riv.jpg" class="card-img-top" alt="Camiseta River Plate Titular 1986">
+                      <div class="card-body">
+                        <p class="card-text">River Plate Titular 1986</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-rom.jpg" class="card-img-top" alt="Camiseta Roma Suplente 2001">
+                      <div class="card-body">
+                        <p class="card-text">Roma Suplente 2001</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="card">
+                      <img src="../img/retro/ret-vil.jpg" class="card-img-top" alt="Camiseta Villarreal Titular 2006">
+                      <div class="card-body">
+                        <p class="card-text">Villarreal Titular 2006</p>
+                        <p>$10.000</p>
+                      </div>
+                    </div>
+                </figure>
+            </div>
+        </main>
+        
+        <aside class="descuento">
+            <div class="descuento">
+                <h1 class="titulo-descuento">EN TU PRIMERA COMPRA OBTENÉ UN 15% DE DESCUENTO</h1>
+            </div>
+        </aside>
+          
+             <!--footer-->
+    <footer class="pie-pagina">
+        <section>
+            <div class="img-cancha">
+                <h1 class="titulo-pie">ENVIANOS UN<br>MENSAJE</h1>
+            </div>
+        </section>
+        <section>
+        <div class="grupo-1">
+            <div class="box">
+                <h2>SHOWROOM</h2>
+                <p>Calle 1234, Buenos Aires</p>
+            </div>
+            <div class="box">
+                <h2>CORREO</h2>
+                <p>atodofutbol@gmail.com<p>
+            </div>
+            <div class="box">
+                <h2>SEGUINOS</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com" class="bi bi-instagram"></a>
+                    <a href="https://www.facebook.com" class="bi bi-facebook"></a>
+                    <a href="https://www.twitter.com" class="bi bi-twitter"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </footer>
+    <!-- fin footer-->
+    </div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
